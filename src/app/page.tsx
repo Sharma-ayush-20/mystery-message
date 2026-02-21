@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
    <div>
-    <h1 className="bg-emerald-400">Ayush Sharma</h1>
+    <h1 className="font-bold text-2xl">Mystery Message</h1>
    </div>
   );
 }

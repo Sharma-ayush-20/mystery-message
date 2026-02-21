@@ -32,7 +32,7 @@ export async function POST(request: Request) {
 
     //user exist with this email
     if (exisitingUserByEmail) {
-      //user is verified 
+      //user is verified
         if(exisitingUserByEmail.isVerified){
             return Response.json({
                 success: false,
